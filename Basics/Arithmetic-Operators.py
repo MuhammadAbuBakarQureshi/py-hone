@@ -15,6 +15,7 @@ print(5 * 4) # 20
 print(5 / 2) # 2.5
 
 # If we use "//" then numbers after decimal will not be printed
+# Floor Division
 
 print(5 // 2) # 2
 
