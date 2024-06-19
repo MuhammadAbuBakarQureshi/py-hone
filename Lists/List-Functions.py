@@ -43,3 +43,15 @@ Length of the list
 '''
 
 print(len(marks))
+
+
+
+'''
+clear
+
+Clear list
+'''
+
+marks.clear()
+
+print(marks)
