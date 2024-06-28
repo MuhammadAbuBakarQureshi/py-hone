@@ -3,9 +3,7 @@ import numpy as np
 '''     0 - Dimensional array
 '''
 
-arr_0_dm = 88
-
-arr = np.array(arr_0_dm)
+arr = np.array(88)
 
 print(arr.ndim, "Dimensional array \n", arr, "\n") # arr.ndim tells the dimension of the "arr"
 
@@ -14,9 +12,7 @@ print(arr.ndim, "Dimensional array \n", arr, "\n") # arr.ndim tells the dimensio
 '''     1 - Dimensional array
 '''
 
-arr_1_dm = [1, 2, 3]
-
-arr = np.array(arr_1_dm)
+arr = np.array([1, 2, 3])
 
 print(arr.ndim, "Dimensional array \n", arr, "\n") # arr.ndim tells the dimension of the "arr"
 
@@ -25,12 +21,12 @@ print(arr.ndim, "Dimensional array \n", arr, "\n") # arr.ndim tells the dimensio
 '''     2 - Dimensional array
 '''
 
-arr_2_dm = [
+arr = np.array([
+
         [2, 4, 6],
         [1, 3, 5]
     ]
-
-arr = np.array(arr_2_dm)
+)
 
 print(arr.ndim, "Dimensional array \n", arr, "\n") # arr.ndim tells the dimension of the "arr"
 
@@ -39,7 +35,7 @@ print(arr.ndim, "Dimensional array \n", arr, "\n") # arr.ndim tells the dimensio
 '''     3 - Dimensional array
 '''
 
-arr_3_dm = [
+arr = np.array([
 
         [
             [10, 20, 30],
@@ -51,8 +47,7 @@ arr_3_dm = [
             [101, 202, 303]
         ]
     ]
-
-arr = np.array(arr_3_dm)
+)
 
 print(arr.ndim, "Dimensional array \n", arr, "\n") # arr.ndim tells the dimension of the "arr"
 
