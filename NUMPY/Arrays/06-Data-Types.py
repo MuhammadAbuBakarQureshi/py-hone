@@ -23,6 +23,13 @@ arr = np.array([4, 2, 6], dtype = 'int16')
 print(arr.dtype) # int16
 
 
+'''We can give size as well
+'''
+arr = np.array([5, 2, 6], dtype = 'i8') # Data type integer and itemsize is 8 bytes
+
+print(arr.dtype, arr.itemsize) # int32 8
+
+
 
 '''     Get size
 '''
@@ -34,10 +41,10 @@ arr = np.array([1 ,3 , 5])
 print(arr.itemsize) # 4
 
 
+
+
 ''' "size" gives How many elements in the array
+
+Float is 8 bytes
 '''
 print(arr.size) # 3
-
-
-'''     Float is 8 bytes
-'''
