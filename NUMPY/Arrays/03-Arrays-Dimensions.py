@@ -75,3 +75,22 @@ print(arr.ndim, "Dimensional array \n", arr, "\n") # arr.ndim tells the dimensio
 arr = np.array([1, 3, 4], ndmin = 4) # ndmin = 4 means now this array will be 4 dimwnsional 
 
 print(arr)
+
+
+'''             Check shape of the array
+'''
+
+arr = np.array(
+       [
+            [
+                [1, 3, 4],
+                [2, 4, 5]
+            ],
+            [
+                [3, 5, 2],
+                [6, 4, 2]
+            ]
+       ]
+)
+
+print(arr.shape)
